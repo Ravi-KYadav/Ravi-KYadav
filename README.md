@@ -1,6 +1,6 @@
 <h1>Hi, I'm Ravi Yadav! <br/><a href="https://github.com/Ravi-KYadav">Programmer</a>, <a href="https://www.linkedin.com/in/ravi-yadav-4438a8131/">Cybersecurity Professional</a>, <a href="https://www.youtube.com/@CyberShift-s3o">YouTuber</a></h1>
 
-<h2>👨‍💻 Cybersecurity  Projects:</h2>
+<h2>👨‍💻 Cybersecurity Projects:</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
   - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
