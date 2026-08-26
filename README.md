@@ -1,54 +1,59 @@
-<h1>Hi, I'm Ravi Yadav! <br/><a href="https://github.com/Ravi-KYadav">Programmer</a>, <a href="https://www.linkedin.com/in/ravi-yadav-4438a8131/">Cybersecurity Professional</a>
+# Hi, I'm Ravi Kumar Yadav 👋
 
-<h2>👨‍💻 Cybersecurity Projects:</h2>
+**Entry-Level SOC Analyst | Cybersecurity Professional**
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+I'm transitioning into cybersecurity from a customer service and technical advisory background, with hands-on, self-built experience in SIEM deployment, alert triage, phishing analysis, network traffic analysis, and threat intelligence mapping. Currently targeting SOC Analyst L1 roles in the Delhi NCR market.
 
-<h2>📺 Popular YouTube Videos</h2>
+📍 Dwarka, New Delhi &nbsp;|&nbsp; 📧 raviearth123@gmail.com &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/ravi-yadav-cybersecurity/)
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
+---
 
-<h2> 🤳 Connect with me:</h2>
+## 🛡️ Security Projects
 
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+### 🔹 [Wazuh SIEM Home Lab](https://github.com/Ravi-KYadav/wazuh-siem-home-lab)
+Deployed and configured a Wazuh SIEM in a self-built home lab to collect, parse, and correlate security logs. Configured custom alert rules and dashboards to detect and visualize suspicious activity.
+`Wazuh` `SIEM` `Log Management` `Alerting`
 
-[twitter]: https://twitter.com/joshmadakor
-[youtube]: https://www.youtube.com/c/joshmadakor
-[instagram]: https://www.instagram.com/joshmadakor/
-[linkedin]: https://linkedin.com/in/joshmadakor
+### 🔹 [SOC Alert Triage Practice](https://github.com/Ravi-KYadav/soc-alert-triage-practice)
+Investigated simulated SOC alerts on LetsDefend and CyberDefenders using structured triage methodology. Documented findings, severity assessment, and escalation decisions for each case.
+`Alert Triage` `Incident Investigation` `SOC Workflow`
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🔹 [Phishing Email Analysis](https://github.com/Ravi-KYadav/phishing-email-analysis)
+Analyzed email headers, sender authenticity (SPF/DKIM/DMARC), links, and attachments to identify phishing indicators. Documented IOCs and produced analyst-style investigation write-ups.
+`Phishing Analysis` `Email Security` `IOC Identification`
 
-Here are some ideas to get you started:
+### 🔹 [Network Traffic Analysis (Wireshark & Suricata)](https://github.com/Ravi-KYadav/network-traffic-analysis-wireshark-suricata)
+Captured and analyzed network traffic using Wireshark and Suricata to identify malicious patterns and anomalies, correlating packet-level findings with signature-based alerts.
+`Wireshark` `Suricata` `Network Forensics`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔹 [MITRE ATT&CK Threat Intelligence Mapping](https://github.com/Ravi-KYadav/mitre-attack-threat-intel-mapping)
+Mapped observed attacker behaviors and simulated incident scenarios to MITRE ATT&CK tactics and techniques, with reference documentation linking TTPs to detection and mitigation strategies.
+`MITRE ATT&CK` `Threat Intelligence` `TTP Mapping`
+
+---
+
+## 🧰 Technical Skills
+
+**SIEM & Monitoring:** Wazuh · Splunk (incl. advanced search & data manipulation) · Elastic Stack / ELK (incl. advanced ELK)
+**Security Tools:** Wireshark · Suricata · EDR concepts · SOAR concepts
+**Analysis & Frameworks:** Alert triage · Phishing analysis · MITRE ATT&CK · Cyber Kill Chain · Log analysis
+**Domains:** Network traffic analysis · Active Directory security for SOC · Cloud security monitoring for SOC · Linux fundamentals
+
+## 📜 Certifications
+
+- Google Cybersecurity Professional Certificate (2025)
+- PG Certification in Cybersecurity — Great Learning (2025)
+
+## 🎓 Hands-On Training
+
+- TryHackMe: Pre Security, Cyber Security 101, SOC Level 1
+- TryHackMe SOC Level 2: Advanced Splunk, Advanced Elastic, Active Directory for SOC, Cloud Security for SOC
+- LetsDefend: SOC Analyst Learning Path, Cybersecurity for Students
+
+## 🎓 Education
+
+B.Com (Hons) — University of Delhi (2015)
+
+---
+
+📫 Open to SOC Analyst L1 opportunities in Delhi NCR — feel free to connect on [LinkedIn](https://www.linkedin.com/in/ravi-yadav-cybersecurity/).
