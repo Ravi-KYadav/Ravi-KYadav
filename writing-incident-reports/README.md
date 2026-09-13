@@ -1,30 +1,33 @@
 # NotPetya Incident Response Report – A.P. Møller-Maersk
 
-> **SOC Analyst Portfolio Project**
+> **SOC Analyst Portfolio Case Study** — incident response and recovery
 
-## Overview
+### 🧰 Tools & Technologies
+<img src="https://img.shields.io/badge/Incident_Response-555555" alt="Incident Response"> <img src="https://img.shields.io/badge/Ransomware-Analysis-555555" alt="Ransomware Analysis"> <img src="https://img.shields.io/badge/Remediation-555555" alt="Remediation">
+
+## 🎯 Investigation objective
 Produced an analyst-style incident report covering classification, timeline, scope, affected systems and remediation for the NotPetya incident scenario.
 
-**Category:** Incident response / threat reporting  
-**Tools / Concepts:** Incident response / ransomware / remediation
-
-## What I Did
-- Classified the event as a high-priority network attack and malware incident.
+## 🔎 What I covered
+- Classified the event as a **high-priority network attack and malware incident**.
 - Documented the incident timeline, global scope and affected infrastructure.
 - Recorded containment, isolation, restoration, rebuilding, patching and forensic-investigation actions.
 - Recommended proactive vulnerability management, segmentation, access controls, awareness training and incident-response exercises.
 
-## Evidence
-The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
+## 🧠 Analyst thinking
+Incident response is more than containment. A useful report preserves the timeline, explains the business impact and shows how the organisation moves from **contain → investigate → recover → reduce recurrence risk**.
 
-![Project evidence](evidence-01.png)
+## 📸 Evidence
+Selected screenshots from the original project submission are included below.
 
-![Project evidence](evidence-02.png)
+![NotPetya evidence](evidence-01.png)
 
-## Analyst Takeaways
-- Focused on evidence-driven analysis rather than assumptions.
-- Documented findings in an analyst/reporting format suitable for SOC workflows.
-- Connected technical observations to security impact, prioritization or remediation where applicable.
+![Incident response evidence](evidence-02.png)
 
-## Scope & Ethics
-This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
+![Additional incident evidence](evidence-03.png)
+
+## 💡 Skills demonstrated
+**Incident classification • Timeline building • Containment • Recovery • Remediation • Forensic thinking • Incident reporting**
+
+## Scope & ethics
+Based on the supplied incident scenario and public information for educational analysis. No unauthorised systems were targeted.
