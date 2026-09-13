@@ -1,33 +1,33 @@
 # Windows Firewall Log Analysis
 
-> **SOC Analyst Portfolio Project**
+> **SOC Analyst Portfolio Case Study** — network security monitoring and log analysis
 
-## Overview
-Analyzed Microsoft Windows Firewall logs to identify reconnaissance and suspicious connection activity.
-
-**Category:** Network security monitoring / log analysis  
-**Tools / Concepts:** Windows Firewall / firewall logs / TCP-IP
-
-### 🧰 Tools
+### 🧰 Tools & Technologies
 <img src="https://img.shields.io/badge/Microsoft_Windows-0078D4?logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Windows_Firewall-0078D4?logo=windows&logoColor=white" alt="Windows Firewall"> <img src="https://img.shields.io/badge/TCP%2FIP-Network_Analysis-555555" alt="TCP/IP">
 
-## What I Did
-- Identified a 10-entry port-scanning sequence from 10.0.2.15.
-- Observed destination ports 135, 21, 445, 139 and 80 in the scan sequence.
-- Identified an 8-entry single-port connection attempt to destination port 80 from 10.0.2.10.
-- Correlated timestamps, packet sizes, source IPs and destination ports.
+## 🎯 Investigation objective
+Analyzed Windows Firewall logs to identify reconnaissance patterns and suspicious connection activity, then correlated the network indicators with timestamps and destination ports.
 
-## Evidence
-The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
+## 🔎 What I found
+- Identified a **10-entry port-scanning sequence** from `10.0.2.15`.
+- Observed destination ports **135, 21, 445, 139 and 80** in the scan sequence.
+- Identified an **8-entry connection attempt to port 80** from `10.0.2.10`.
+- Correlated source IPs, destination ports, timestamps and packet sizes to support the assessment.
 
-![Project evidence](evidence-01.png)
+## 🧠 Analyst thinking
+The useful signal was the pattern rather than a single firewall entry. Repeated attempts across multiple service ports are more meaningful when viewed together as a possible reconnaissance sequence.
 
-![Project evidence](evidence-02.png)
+## 📸 Evidence
+Selected screenshots from the original project submission are included below.
 
-## Analyst Takeaways
-- Focused on evidence-driven analysis rather than assumptions.
-- Documented findings in an analyst/reporting format suitable for SOC workflows.
-- Connected technical observations to security impact, prioritization or remediation where applicable.
+![Firewall log evidence](evidence-01.png)
 
-## Scope & Ethics
-This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
+![Firewall analysis evidence](evidence-02.png)
+
+![Additional firewall evidence](evidence-03.png)
+
+## 💡 Skills demonstrated
+**Windows Firewall • Log analysis • Network reconnaissance detection • TCP/IP • Timestamp correlation • Source/destination analysis • Security reporting**
+
+## Scope & ethics
+Completed in a controlled lab / educational environment using supplied or simulated network data. No unauthorised systems were targeted.
