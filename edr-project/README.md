@@ -1,26 +1,30 @@
 # EDR Product Evaluation
 
-**SOC Analyst Portfolio Project · Endpoint Security**
+> **SOC Analyst Portfolio Project**
 
 ## Overview
-Compared CrowdStrike Falcon Insight, Sophos Intercept X and Symantec EDR against operational security requirements.
+Compared three EDR products against operational security requirements and evaluated capabilities relevant to SOC operations.
 
-## Evaluation Areas
-- Network containment
-- Forensic evidence
-- Cloud sandbox capabilities
-- Zero Trust alignment
-- Managed security/support considerations
-- Deployment and integration
+**Category:** Endpoint Detection & Response  
+**Tools / Concepts:** CrowdStrike Falcon Insight / Sophos Intercept X / Symantec EDR
 
-## Conclusion
-**CrowdStrike Falcon Insight** was selected as the best fit for the project scenario based on the stated requirements and comparison criteria.
-
-## Skills Demonstrated
-EDR evaluation · endpoint containment · forensic capability assessment · security architecture thinking · technical comparison
+## What I Did
+- Compared network containment, forensic evidence and cloud sandbox capabilities.
+- Evaluated Zero Trust alignment, managed security support, deployment and integration considerations.
+- Compared project-specified Gartner ratings, capability and support scores.
+- Selected CrowdStrike Falcon Insight as the best fit for the project scenario based on the stated requirements.
 
 ## Evidence
-Selected evidence screenshots are included in this project folder.
+The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
 
-## Scope
-Educational product-evaluation exercise; vendor capabilities are discussed in the context of the project scenario.
+![Project evidence](evidence-01.png)
+
+![Project evidence](evidence-02.png)
+
+## Analyst Takeaways
+- Focused on evidence-driven analysis rather than assumptions.
+- Documented findings in an analyst/reporting format suitable for SOC workflows.
+- Connected technical observations to security impact, prioritization or remediation where applicable.
+
+## Scope & Ethics
+This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
