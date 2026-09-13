@@ -26,6 +26,8 @@ My portfolio is intentionally practical: I take a security question, collect the
 📍 **Delhi NCR, India**  
 🎯 **Target roles:** SOC Analyst L1 • Security Operations • Cybersecurity Analyst • Security Monitoring
 
+> 🗂️ **Portfolio map:** See [`PORTFOLIO_INDEX.md`](PORTFOLIO_INDEX.md) for the structured repository and case-study index.
+
 ---
 
 ## ⚡ Recruiter snapshot
