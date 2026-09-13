@@ -8,6 +8,9 @@ Performed network discovery and service-scanning exercises and compared results 
 **Category:** Network reconnaissance / defensive monitoring  
 **Tools / Concepts:** Nmap / Windows Firewall / network discovery
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/Nmap-004065?logo=nmap&logoColor=white" alt="Nmap"> <img src="https://img.shields.io/badge/Microsoft_Windows-0078D4?logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Firewall-Analysis-555555" alt="Firewall Analysis">
+
 ## What I Did
 - Performed network discovery scans across the lab subnet.
 - Performed Nmap scans with firewall enabled and compared observable results.
