@@ -8,6 +8,9 @@ Analyzed Microsoft Windows Firewall logs to identify reconnaissance and suspicio
 **Category:** Network security monitoring / log analysis  
 **Tools / Concepts:** Windows Firewall / firewall logs / TCP-IP
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/Microsoft_Windows-0078D4?logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Windows_Firewall-0078D4?logo=windows&logoColor=white" alt="Windows Firewall"> <img src="https://img.shields.io/badge/TCP%2FIP-Network_Analysis-555555" alt="TCP/IP">
+
 ## What I Did
 - Identified a 10-entry port-scanning sequence from 10.0.2.15.
 - Observed destination ports 135, 21, 445, 139 and 80 in the scan sequence.
