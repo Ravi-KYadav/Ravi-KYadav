@@ -6,11 +6,11 @@ This repository is the profile-level case library. The five repositories below a
 
 | Repository | Focus | Maturity |
 |---|---|---|
-| [wazuh-siem-home-lab](https://github.com/Ravi-KYadav/wazuh-siem-home-lab) | SIEM deployment, Windows telemetry and alert investigation | Active |
-| [soc-alert-triage-practice](https://github.com/Ravi-KYadav/soc-alert-triage-practice) | L1 alert triage and analyst handoffs | Active |
+| [wazuh-siem-home-lab](https://github.com/Ravi-KYadav/wazuh-siem-home-lab) | SIEM deployment, Windows telemetry, detections and alert investigation | Active |
+| [soc-alert-triage-practice](https://github.com/Ravi-KYadav/soc-alert-triage-practice) | L1 alert triage, case management and analyst handoffs | Active |
 | [phishing-email-analysis](https://github.com/Ravi-KYadav/phishing-email-analysis) | Email security, IOC extraction and verdicts | Active |
-| [network-traffic-analysis-wireshark-suricata](https://github.com/Ravi-KYadav/network-traffic-analysis-wireshark-suricata) | Packet analysis and IDS correlation | Active |
-| [mitre-attack-threat-intel-mapping](https://github.com/Ravi-KYadav/mitre-attack-threat-intel-mapping) | Threat intelligence and ATT&CK mapping | Active |
+| [network-traffic-analysis-wireshark-suricata](https://github.com/Ravi-KYadav/network-traffic-analysis-wireshark-suricata) | Packet analysis, IDS correlation and network investigations | Active |
+| [mitre-attack-threat-intel-mapping](https://github.com/Ravi-KYadav/mitre-attack-threat-intel-mapping) | Threat intelligence, TTP analysis and ATT&CK mapping | Active |
 
 ## Case-study categories
 
@@ -43,9 +43,24 @@ This repository is the profile-level case library. The five repositories below a
 - EDR Product Evaluation
 - Password Security & Hash Cracking Lab
 
-## Evidence convention
+## Repository architecture standard
 
-Project folders use a consistent lightweight case-study format:
+### Active SOC labs
+
+```text
+repository/
+├── README.md                 # Executive summary + navigation
+├── docs/                     # Methodology, architecture and standards
+├── cases/                    # Investigation case library + templates
+├── detections/               # Detection concepts / playbooks (where applicable)
+└── evidence/                 # Sanitised screenshots and evidence standards
+```
+
+Each active repository separates **methodology**, **investigation cases**, **detection logic**, and **evidence** so a recruiter can move from the objective to the actual analyst workflow without searching through a long README.
+
+### Legacy / evidence-backed project folders
+
+The original 13 case studies retain a lightweight structure because their selected evidence is already published:
 
 ```text
 project-name/
@@ -55,15 +70,22 @@ project-name/
 └── evidence-03.png
 ```
 
-The active repositories use a more scalable structure:
+These projects are progressively being converted into the same structured case-study standard where additional material adds genuine value.
 
-```text
-repository/
-├── README.md
-├── docs/
-├── cases/
-└── evidence/
-```
+## Evidence convention
+
+A completed case should normally contain:
+
+1. **Scenario / alert** — what started the investigation
+2. **Scope** — affected host, user, network or dataset
+3. **Evidence** — screenshots, logs, packets or IOCs
+4. **Timeline** — important events in chronological order
+5. **Analysis** — how the evidence was interpreted
+6. **Verdict** — benign / suspicious / true positive / false positive
+7. **Severity & impact** — why the finding matters
+8. **Action** — close, monitor, escalate, contain or remediate
+9. **MITRE ATT&CK** — where relevant
+10. **Analyst handoff** — concise next-step summary
 
 ## Publication standard
 
