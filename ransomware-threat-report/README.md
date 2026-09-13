@@ -1,30 +1,33 @@
 # Conti Ransomware Threat Report
 
-> **SOC Analyst Portfolio Project**
+> **SOC Analyst Portfolio Case Study** — ransomware threat intelligence and IOC analysis
 
-## Overview
-Prepared a threat report covering Conti ransomware operations, motivation, notable attacks, indicators of compromise and security recommendations.
+### 🧰 Tools & Technologies
+<img src="https://img.shields.io/badge/Threat_Intelligence-555555" alt="Threat Intelligence"> <img src="https://img.shields.io/badge/IOC-Analysis-555555" alt="IOC Analysis"> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-000000?logo=mitreattack&logoColor=white" alt="MITRE ATT&CK">
 
-**Category:** Threat intelligence / ransomware analysis  
-**Tools / Concepts:** Threat intelligence / ransomware / IOCs / MITRE ATT&CK
+## 🎯 Investigation objective
+Prepared a threat report covering Conti ransomware operations, motivation, notable attacks, indicators of compromise and defensive recommendations.
 
-## What I Did
-- Documented Conti as a ransomware-as-a-service operation and summarized its financially motivated model.
-- Reviewed notable attacks including Ireland HSE, Broward County Public Schools and Ireland Department of Health.
-- Documented IOC categories including file hashes, IP addresses, domains and email addresses.
-- Provided defensive recommendations covering patching, access controls, email security, backups, segmentation and awareness.
+## 🔎 What I covered
+- Documented Conti as a **ransomware-as-a-service** operation and summarised its financially motivated model.
+- Reviewed notable attacks including **Ireland HSE, Broward County Public Schools and Ireland Department of Health**.
+- Organised IOC categories including file hashes, IP addresses, domains and email addresses.
+- Developed defensive recommendations covering patching, access controls, email security, backups, segmentation and awareness.
 
-## Evidence
-The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
+## 🧠 Analyst thinking
+A threat report should help a defender answer two questions quickly: **what should I look for, and what can I do about it?** The report therefore connects adversary context and IOCs with practical defensive actions.
 
-![Project evidence](evidence-01.png)
+## 📸 Evidence
+Selected screenshots from the original project submission are included below.
 
-![Project evidence](evidence-02.png)
+![Conti threat report evidence](evidence-01.png)
 
-## Analyst Takeaways
-- Focused on evidence-driven analysis rather than assumptions.
-- Documented findings in an analyst/reporting format suitable for SOC workflows.
-- Connected technical observations to security impact, prioritization or remediation where applicable.
+![IOC and threat intelligence evidence](evidence-02.png)
 
-## Scope & Ethics
-This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
+![Additional threat report evidence](evidence-03.png)
+
+## 💡 Skills demonstrated
+**Threat intelligence • IOC analysis • Ransomware research • Defensive recommendations • ATT&CK context • Security reporting**
+
+## Scope & ethics
+Based on supplied/public threat-intelligence material for educational analysis. No unauthorised systems were targeted.
