@@ -1,33 +1,33 @@
 # EDR Product Evaluation
 
-> **SOC Analyst Portfolio Project**
+> **SOC Analyst Portfolio Case Study** — endpoint detection and response evaluation
 
-## Overview
-Compared three EDR products against operational security requirements and evaluated capabilities relevant to SOC operations.
-
-**Category:** Endpoint Detection & Response  
-**Tools / Concepts:** CrowdStrike Falcon Insight / Sophos Intercept X / Symantec EDR
-
-### 🧰 Tools
+### 🧰 Tools & Technologies
 <img src="https://img.shields.io/badge/CrowdStrike-EDR-E01E3C?logo=crowdstrike&logoColor=white" alt="CrowdStrike"> <img src="https://img.shields.io/badge/Sophos-EDR-004A8F?logo=sophos&logoColor=white" alt="Sophos"> <img src="https://img.shields.io/badge/Symantec-EDR-F2B800?logo=symantec&logoColor=black" alt="Symantec EDR">
 
-## What I Did
-- Compared network containment, forensic evidence and cloud sandbox capabilities.
-- Evaluated Zero Trust alignment, managed security support, deployment and integration considerations.
-- Compared project-specified Gartner ratings, capability and support scores.
-- Selected CrowdStrike Falcon Insight as the best fit for the project scenario based on the stated requirements.
+## 🎯 Evaluation objective
+Compared three EDR products against operational security requirements and evaluated capabilities relevant to SOC operations.
 
-## Evidence
-The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
+## 🔎 What I evaluated
+- Compared **network containment, forensic evidence and cloud sandbox** capabilities.
+- Evaluated Zero Trust alignment, managed-security support, deployment and integration considerations.
+- Compared the project-specified Gartner ratings, capability and support scores.
+- Selected **CrowdStrike Falcon Insight** as the best fit for the stated project scenario based on the supplied requirements.
 
-![Project evidence](evidence-01.png)
+## 🧠 Analyst thinking
+The exercise was less about picking a famous product and more about matching security capabilities to operational requirements — especially **containment, investigation, evidence and support**.
 
-![Project evidence](evidence-02.png)
+## 📸 Evidence
+Selected screenshots from the original project submission are included below.
 
-## Analyst Takeaways
-- Focused on evidence-driven analysis rather than assumptions.
-- Documented findings in an analyst/reporting format suitable for SOC workflows.
-- Connected technical observations to security impact, prioritization or remediation where applicable.
+![EDR evaluation evidence](evidence-01.png)
 
-## Scope & Ethics
-This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
+![EDR comparison evidence](evidence-02.png)
+
+![Additional EDR evidence](evidence-03.png)
+
+## 💡 Skills demonstrated
+**EDR evaluation • Endpoint security • Detection & response • Containment • Forensic evidence • Security architecture • Vendor comparison**
+
+## Scope & ethics
+Completed as an educational product-evaluation exercise using the supplied scenario and requirements.
