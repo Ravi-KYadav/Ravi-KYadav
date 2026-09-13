@@ -8,6 +8,9 @@ Performed controlled password-security exercises against lab credentials using m
 **Category:** Credential security / Windows & Linux  
 **Tools / Concepts:** L0phtCrack / Ophcrack / John the Ripper / NTLM
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/L0phtCrack-Password_Audit-555555" alt="L0phtCrack"> <img src="https://img.shields.io/badge/Ophcrack-Password_Audit-555555" alt="Ophcrack"> <img src="https://img.shields.io/badge/John_the_Ripper-Password_Audit-555555" alt="John the Ripper"> <img src="https://img.shields.io/badge/NTLM-Authentication-555555" alt="NTLM">
+
 ## What I Did
 - Extracted and analyzed NTLM password hashes in a controlled Windows lab.
 - Performed NTLM hash cracking with Ophcrack on Kali Linux.
