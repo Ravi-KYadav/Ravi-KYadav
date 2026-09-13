@@ -8,6 +8,9 @@ Investigated a simulated compromised Windows endpoint by correlating authenticat
 **Category:** Incident investigation / Windows security  
 **Tools / Concepts:** Windows / event analysis / incident response
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/Microsoft_Windows-0078D4?logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Event_Log-Analysis-555555" alt="Event Log Analysis"> <img src="https://img.shields.io/badge/Incident-Response-555555" alt="Incident Response">
+
 ## What I Did
 - Identified suspicious failed-login activity and a subsequent successful login inconsistent with the expected user schedule.
 - Identified deletion of audit logs as a potential defense-evasion indicator.
