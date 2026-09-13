@@ -9,6 +9,9 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Ravi--KYadav-181717?logo=github&logoColor=white)](https://github.com/Ravi-KYadav)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ravi_Yadav-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravi-yadav-cybersecurity/)
 [![Email](https://img.shields.io/badge/Email-raviearth123%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:raviearth123@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-9625690635-25D366?logo=phone&logoColor=white)](tel:+919625690635)
+
+📧 **raviearth123@gmail.com** &nbsp;•&nbsp; 📞 **+91 96256 90635**
 
 </div>
 
