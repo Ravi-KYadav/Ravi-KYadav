@@ -1,33 +1,33 @@
 # Wireshark Packet Analysis
 
-> **SOC Analyst Portfolio Project**
+> **SOC Analyst Portfolio Case Study** — packet-level network investigation
 
-## Overview
-Performed packet-level analysis of a PCAP to investigate application traffic, TCP connection establishment and DNS activity.
-
-**Category:** Network traffic analysis  
-**Tools / Concepts:** Wireshark / PCAP / TCP / DNS / HTTP
-
-### 🧰 Tools
+### 🧰 Tools & Technologies
 <img src="https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white" alt="Wireshark"> <img src="https://img.shields.io/badge/PCAP-Network_Analysis-555555" alt="PCAP"> <img src="https://img.shields.io/badge/TCP%20%7C%20DNS%20%7C%20HTTP-Analysis-555555" alt="TCP DNS HTTP">
 
-## What I Did
-- Inspected HTTP traffic and packet details relevant to credential exposure in a controlled lab.
-- Analyzed the TCP three-way handshake and documented source/destination IPs and ports.
+## 🎯 Investigation objective
+Performed packet-level analysis of a supplied PCAP to investigate application traffic, TCP connection establishment and DNS activity, using frame-level evidence to support the findings.
+
+## 🔎 What I investigated
+- Inspected HTTP traffic relevant to credential exposure in a controlled lab.
+- Analyzed the **TCP three-way handshake** and documented source/destination IPs and ports.
 - Investigated DNS response traffic and documented the SHA-1 hash of the saved PCAP.
-- Used frame-level evidence to support network investigation findings.
+- Used individual packet/frame evidence rather than relying only on high-level summaries.
 
-## Evidence
-The screenshots below were extracted/rendered from the original project submission. Public-facing evidence has been kept focused on the security-analysis workflow; credential values are redacted where appropriate.
+## 🧠 Analyst thinking
+Packet analysis is about reconstructing the conversation: who communicated, over which protocol, on what port, and what the traffic actually contained. This exercise helped turn raw packets into an investigation narrative.
 
-![Project evidence](evidence-01.png)
+## 📸 Evidence
+Selected screenshots from the original project submission are included below. Public-facing evidence is focused on the investigation workflow and sensitive credential values are redacted.
 
-![Project evidence](evidence-02.png)
+![Wireshark evidence](evidence-01.png)
 
-## Analyst Takeaways
-- Focused on evidence-driven analysis rather than assumptions.
-- Documented findings in an analyst/reporting format suitable for SOC workflows.
-- Connected technical observations to security impact, prioritization or remediation where applicable.
+![Packet analysis evidence](evidence-02.png)
 
-## Scope & Ethics
-This project was completed in a controlled lab / educational environment using supplied datasets, simulated systems or public threat-intelligence material as described by the original submission. No unauthorized systems were targeted.
+![Additional packet evidence](evidence-03.png)
+
+## 💡 Skills demonstrated
+**Wireshark • PCAP analysis • TCP/IP • DNS • HTTP • Packet inspection • Evidence correlation • Network investigation**
+
+## Scope & ethics
+Completed in a controlled lab / educational environment using supplied packet-capture data. No unauthorised systems were targeted.
