@@ -8,7 +8,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ravi--KYadav-181717?logo=github&logoColor=white)](https://github.com/Ravi-KYadav)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ravi_Yadav-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravi-yadav-cybersecurity/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:raviearth123@gmail.com)
+[![Email](https://img.shields.io/badge/Email-raviearth123%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:raviearth123@gmail.com)
 
 </div>
 
