@@ -8,6 +8,9 @@ Compared three EDR products against operational security requirements and evalua
 **Category:** Endpoint Detection & Response  
 **Tools / Concepts:** CrowdStrike Falcon Insight / Sophos Intercept X / Symantec EDR
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/CrowdStrike-EDR-E01E3C?logo=crowdstrike&logoColor=white" alt="CrowdStrike"> <img src="https://img.shields.io/badge/Sophos-EDR-004A8F?logo=sophos&logoColor=white" alt="Sophos"> <img src="https://img.shields.io/badge/Symantec-EDR-F2B800?logo=symantec&logoColor=black" alt="Symantec EDR">
+
 ## What I Did
 - Compared network containment, forensic evidence and cloud sandbox capabilities.
 - Evaluated Zero Trust alignment, managed security support, deployment and integration considerations.
