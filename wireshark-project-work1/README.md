@@ -8,6 +8,9 @@ Performed packet-level analysis of a PCAP to investigate application traffic, TC
 **Category:** Network traffic analysis  
 **Tools / Concepts:** Wireshark / PCAP / TCP / DNS / HTTP
 
+### 🧰 Tools
+<img src="https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white" alt="Wireshark"> <img src="https://img.shields.io/badge/PCAP-Network_Analysis-555555" alt="PCAP"> <img src="https://img.shields.io/badge/TCP%20%7C%20DNS%20%7C%20HTTP-Analysis-555555" alt="TCP DNS HTTP">
+
 ## What I Did
 - Inspected HTTP traffic and packet details relevant to credential exposure in a controlled lab.
 - Analyzed the TCP three-way handshake and documented source/destination IPs and ports.
